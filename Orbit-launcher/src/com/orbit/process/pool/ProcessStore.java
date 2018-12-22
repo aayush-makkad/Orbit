@@ -1,0 +1,18 @@
+package com.orbit.process.pool;
+
+import java.util.ArrayList;
+
+public interface ProcessStore {
+	
+	
+	public static ArrayList<Integer> poolList = new ArrayList<Integer>();
+	
+	public void addProcess(int _processnumber) ;
+	
+	public ArrayList<Integer> getpool();
+	
+	public boolean removeTop();
+	
+	public int getTopInstruction();
+
+}

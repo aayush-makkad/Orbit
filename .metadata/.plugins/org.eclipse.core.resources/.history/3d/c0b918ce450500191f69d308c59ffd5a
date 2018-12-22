@@ -1,0 +1,5 @@
+package com.orbit.process.pool;
+
+public interface ProcessStore {
+
+}
